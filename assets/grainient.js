@@ -22,8 +22,8 @@ function draw() {
     canvas.width
   );
 
-  g.addColorStop(0, "#FF9FFC");
-  g.addColorStop(0.5, "#5227FF");
+  g.addColorStop(0, "#000000");
+  g.addColorStop(0.5, "#ffffff");
   g.addColorStop(1, "#000000");
 
   ctx.fillStyle = g;
