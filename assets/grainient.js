@@ -27,9 +27,9 @@ function draw() {
   );
 
   g.addColorStop(0, "rgba(0, 0, 0, 0.9)");
-  g.addColorStop(0.35, "rgba(61, 61, 61, 0.6)");
-  g.addColorStop(0.7, "rgba(187, 187, 187, 0.35)");
-  g.addColorStop(1, "rgb(255, 255, 255)");
+  g.addColorStop(0.35, "rgba(75, 75, 75, 0.6)");
+  g.addColorStop(0.7, "rgba(150, 150, 150, 0.35)");
+  g.addColorStop(1, "rgb(226, 226, 226)");
 
   ctx.fillStyle = g;
   ctx.fillRect(0, 0, canvas.width, canvas.height);
