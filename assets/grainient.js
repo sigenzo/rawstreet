@@ -26,10 +26,10 @@ function draw() {
     canvas.width * 0.9
   );
 
-  g.addColorStop(0, "rgba(255,159,252,0.9)");
-  g.addColorStop(0.35, "rgba(177,158,239,0.6)");
-  g.addColorStop(0.7, "rgba(82,39,255,0.35)");
-  g.addColorStop(1, "rgba(0,0,0,1)");
+  g.addColorStop(0, "rgba(0, 0, 0, 0.9)");
+  g.addColorStop(0.35, "rgba(61, 61, 61, 0.6)");
+  g.addColorStop(0.7, "rgba(187, 187, 187, 0.35)");
+  g.addColorStop(1, "rgb(255, 255, 255)");
 
   ctx.fillStyle = g;
   ctx.fillRect(0, 0, canvas.width, canvas.height);
