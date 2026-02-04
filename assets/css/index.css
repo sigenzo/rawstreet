@@ -92,6 +92,12 @@ body {
     align-items: center;
 }
 
+.grainient-container, #grainient {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+}
+
 #why-input {
     font-family: 'SpecialGothic';
     font-size: 2vh;
